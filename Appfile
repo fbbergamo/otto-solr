@@ -1,0 +1,9 @@
+application {
+    name = "solr4"
+    type = "docker-external"
+}
+
+customization "docker" {
+    image = "makuk66/docker-solr:4.10.4"
+    run_args = "-p 8983:8983"
+}
