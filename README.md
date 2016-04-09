@@ -6,6 +6,6 @@ Appfile
 ``` hcl
 application {
     # add to the end of your application block in your Appfile
-    dependency { source = "github.com/rposborne/otto-solr" }
+    dependency { source = "github.com/fbbergamo/otto-solr" }
 }
 ```
